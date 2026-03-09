@@ -11,6 +11,8 @@ import java.lang.annotation.Target;
 @Target(ElementType.FIELD)
 public @interface BindEnum {
     String size();
+
     Class<? extends ByteEnum> type();
+
     ByteOrder byteOrder() default ByteOrder.BIG_ENDIAN;
 }

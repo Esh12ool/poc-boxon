@@ -3,10 +3,11 @@ package shan.utils;
 import io.github.mtrevisan.boxon.annotations.bindings.ByteOrder;
 import io.github.mtrevisan.boxon.core.helpers.BitSetHelper;
 import io.github.mtrevisan.boxon.core.helpers.DataTypeCaster;
-import io.github.mtrevisan.boxon.io.Codec;
+import io.github.mtrevisan.boxon.exceptions.BoxonException;
 import io.github.mtrevisan.boxon.io.BitReaderInterface;
 import io.github.mtrevisan.boxon.io.BitWriterInterface;
-import io.github.mtrevisan.boxon.exceptions.BoxonException;
+import io.github.mtrevisan.boxon.io.Codec;
+
 import java.lang.annotation.Annotation;
 import java.math.BigInteger;
 import java.util.Arrays;
